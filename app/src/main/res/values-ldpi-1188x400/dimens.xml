@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- font sizes -->
+    <dimen name="font_small_size">24sp</dimen>
+    <dimen name="font_middle_size">28sp</dimen>
+    <dimen name="font_middle_large_size">34sp</dimen>
+    <dimen name="font_large_size">34sp</dimen>
+    <dimen name="font_large_large_size">45sp</dimen>
+    <dimen name="font_extra_large_size">50sp</dimen>
+    <dimen name="font_max_large_size">95sp</dimen>
+
+    <!-- dialpad contactcall_list -->
+    <dimen name="dialpad_num_text_size">40sp</dimen>
+
+    <!-- 车载APP UI规范 -->
+    <dimen name="font_mini_small">21sp</dimen>
+    <dimen name="font_extreme_small">23.5sp</dimen>
+    <dimen name="font_small">26sp</dimen>
+    <dimen name="font_medium">26sp</dimen>
+    <dimen name="version_medium">20sp</dimen>
+    <dimen name="font_big">30sp</dimen>
+    <dimen name="font_extreme_big">42sp</dimen>
+
+    <dimen name="font_size_13.5sp">23.5sp</dimen>
+    <dimen name="font_size_40sp">50sp</dimen>
+    <dimen name="font_size_20sp">30sp</dimen>
+    <dimen name="font_size_13sp">23sp</dimen>
+    <dimen name="font_size_14sp">24sp</dimen>
+    <dimen name="font_size_16sp">26sp</dimen>
+    <dimen name="txt_veh_content_size_16sp">26sp</dimen>
+    <dimen name="font_size_22dp">32dp</dimen>
+    <dimen name="font_size_12dp">22sp</dimen>
+</resources>

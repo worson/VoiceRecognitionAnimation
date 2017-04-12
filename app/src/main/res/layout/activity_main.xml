@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.aispeech.voicerecognitionanimation.MainActivity">
+    tools:context="com.aispeech.voicerecognitionanimation.ui.MainActivity">
 
     <RelativeLayout
         android:layout_width="368dp"
@@ -14,36 +14,50 @@
         tools:layout_editor_absoluteX="8dp">
 
         <LinearLayout
+            android:id="@+id/voice_layout"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/voice_buttons"
             android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/button_start"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="开始识别"/>
-            <Button
-                android:id="@+id/button_recognize"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="正常识别"/>
             <Button
                 android:id="@+id/button_stop"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="停止识别"/>
+                android:text="空闲"/>
+            <Button
+                android:id="@+id/button_start"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="唤醒"/>
+            <Button
+                android:id="@+id/button_recognize"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="识别"/>
+
             <Button
                 android:id="@+id/button_show"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="完成识别"/>
+                android:text="结束"/>
+            <Button
+                android:id="@+id/button_tts"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="播报"/>
         </LinearLayout>
 
     </RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <item android:drawable="@drawable/anima_listen_0" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_1" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_2" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_3" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_4" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_5" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_6" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_7" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_8" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_9" android:duration="40"/>
+
+    <item android:drawable="@drawable/anima_listen_10" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_11" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_12" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_13" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_14" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_15" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_16" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_17" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_18" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_19" android:duration="40"/>
+
+    <item android:drawable="@drawable/anima_listen_20" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_21" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_22" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_23" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_24" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_25" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_26" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_27" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_28" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_29" android:duration="40"/>
+
+    <item android:drawable="@drawable/anima_listen_30" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_31" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_32" android:duration="40"/>
+    <item android:drawable="@drawable/anima_listen_33" android:duration="40"/>
+
+</animation-list>

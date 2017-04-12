@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item android:drawable="@drawable/anima_mic2listen_0" android:duration="40"/>
+    <item android:drawable="@drawable/anima_mic2listen_1" android:duration="40"/>
+    <item android:drawable="@drawable/anima_mic2listen_2" android:duration="40"/>
+    <item android:drawable="@drawable/anima_mic2listen_3" android:duration="40"/>
+    <item android:drawable="@drawable/anima_mic2listen_4" android:duration="40"/>
+    <item android:drawable="@drawable/anima_mic2listen_5" android:duration="40"/>
+    <item android:drawable="@drawable/anima_mic2listen_6" android:duration="40"/>
+    <item android:drawable="@drawable/anima_mic2listen_7" android:duration="40"/>
+    <item android:drawable="@drawable/anim_listen" android:duration="40"/>
+
+</animation-list>

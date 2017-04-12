@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="plist_padding">30dp</dimen>
+    <dimen name="mlist_padding">25dp</dimen>
+    <dimen name="llist_padding">60dp</dimen>
+
+
+</resources>

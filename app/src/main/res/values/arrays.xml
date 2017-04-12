@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 地图支持配置，名称不可更改 -->
+    <string-array name="maps">
+        <item>高德地图</item>
+        <item>百度地图</item>
+        <item>凯立德地图</item>
+        <item>图吧地图</item>
+        <item>百度导航</item>
+        <item>高德地图车镜版</item>
+        <item>腾讯地图车机版</item>
+        <item>高德地图车机版</item>
+    </string-array>
+
+    <!-- 电话支持配置 -->
+    <string-array name="phones">
+        <item>蓝牙电话</item>
+    </string-array>
+
+    <!-- 聊天风格配置 -->
+    <string-array name="setting_chats">
+        <item>气泡风格</item>
+        <item>经典风格</item>
+    </string-array>
+
+
+    <string-array name="setting_names">
+        <item>对话模式　　</item>
+        <item>语音选择　　</item>
+        <item>默认地图应用</item>
+        <item>默认音乐应用</item>
+        <item>默认电话应用</item>
+    </string-array>
+
+    <string-array name="type_array">
+        <item>唤醒</item>
+        <item>导航</item>
+        <item>附近</item>
+        <item>音乐</item>
+        <item>电话</item>
+        <item>上下页</item>
+        <item>电台</item>
+        <item>微信</item>
+        <item>天气</item>
+        <item>闲聊</item>
+        <item>路况</item>
+        <item>限行</item>
+        <item>股票</item>
+    </string-array>
+
+    <string-array name="type_content_array">
+        <item>说“你好小驰”可以唤醒</item>
+        <item>“我要去天安门”</item>
+        <item>“附近的加油站”</item>
+        <item>“来首刘德华的歌”</item>
+        <item>“打电话给张三”</item>
+        <item>“上一页、下一页”</item>
+        <item>“我要听郭德纲的相声”</item>
+        <item>“发微信给小明”</item>
+        <item>“查一下明天的天气”</item>
+        <item>“讲个段子”</item>
+        <item>“学府路的路况”</item>
+        <item>“北京今天的限行情况”</item>
+        <item>“查一下谷歌的股票”</item>
+        <!--<item>“版权信息”</item>-->
+    </string-array>
+
+    <string-array name="help_tips_music">
+        <item>“播放音乐、暂停音乐”</item>
+        <item>“上一首、下一首”</item>
+        <item>“音量大一点、音量小一点”</item>
+    </string-array>
+
+    <string-array name="help_tips_phone">
+        <item>“打电话给138xxxxxxxx”</item>
+        <item>“不是138，是139”</item>
+        <item>“给张三打电话”</item>
+    </string-array>
+
+    <string-array name="help_tips_page">
+        <item>“第二个”</item>
+    </string-array>
+
+    <string-array name="help_tips_navigation">
+        <item>“导航到火车站”</item>
+        <item>“躲避拥堵”</item>
+    </string-array>
+
+    <string-array name="help_tips_nearby">
+        <item>“会展中心附近的停车场”</item>
+        <item>“我饿了”</item>
+    </string-array>
+
+    <string-array name="help_tips_weather">
+        <item>“北京今天天气怎么样”</item>
+    </string-array>
+
+    <string-array name="help_tips_stock">
+        <item>“沪深指数怎么样”</item>
+    </string-array>
+
+    <string-array name="help_tips_veh">
+        <item>“查一下限行情况”</item>
+    </string-array>
+
+    <string-array name="help_tips_chat">
+        <item>“世界上谁最帅”</item>
+    </string-array>
+
+    <string-array name="help_tips_traffic">
+        <item>“天安门附近的路况”</item>
+    </string-array>
+
+    <string-array name="help_tips_fm">
+        <item>“我要听广播”</item>
+        <item>“调频到87.5”</item>
+    </string-array>
+
+    <string-array name="help_tips_wechat">
+        <item>“我要发微信”</item>
+        <item>“打开微信”</item>
+    </string-array>
+
+    <string-array name="week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+</resources>

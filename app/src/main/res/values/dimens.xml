@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- font sizes -->
+    <dimen name="font_small_size">14sp</dimen>
+    <dimen name="font_middle_size">18sp</dimen>
+    <dimen name="font_middle_large_size">24sp</dimen>
+    <dimen name="font_large_size">24sp</dimen>
+    <dimen name="font_large_large_size">35sp</dimen>
+    <dimen name="font_extra_large_size">40sp</dimen>
+    <dimen name="font_max_large_size">85sp</dimen>
+
+    <!-- dialpad contactcall_list -->
+    <dimen name="dialpad_num_text_size">30sp</dimen>
+
+    <!-- 车载APP UI规范 -->
+    <dimen name="font_mini_small">11sp</dimen>
+    <dimen name="font_extreme_small">13.5sp</dimen>
+    <dimen name="font_small">16sp</dimen>
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="version_medium">10sp</dimen>
+    <dimen name="font_big">20sp</dimen>
+    <dimen name="font_extreme_big">32sp</dimen>
+
+    <!-- 自定义尺寸 -->
+    <dimen name="float_content_top_margin">30dp</dimen>
+    <dimen name="float_content_bottom_margin">10dp</dimen>
+    <dimen name="float_list_margin">10dp</dimen>
+    <dimen name="float_content_margin">10dp</dimen>
+    <dimen name="plist_padding">30dp</dimen>
+    <dimen name="mlist_padding">25dp</dimen>
+    <dimen name="llist_padding">60dp</dimen>
+
+    <dimen name="setting_font_size">16sp</dimen>
+
+    <!-- result-->
+    <dimen name="result_list_item_min_height">83dp</dimen>
+
+    <!-- phone -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="mic_size">116dp</dimen>
+
+    <dimen name="text_paddingLeft">115dp</dimen>
+    <dimen name="text_marginTop">5dp</dimen>
+    <dimen name="layout_15dp">15dp</dimen>
+    <dimen name="layout_32dp">32dp</dimen>
+    <dimen name="layout_height_30dp">30dp</dimen>
+    <dimen name="layout_height_50dp">50dp</dimen>
+    <dimen name="layout_164dp">164dp</dimen>
+    <dimen name="layout_150dp">150dp</dimen>
+    <dimen name="layout_28dp">28dp</dimen>
+    <dimen name="layout_10dp">10dp</dimen>
+    <dimen name="layout_18dp">18dp</dimen>
+    <dimen name="veh_marginTop_18dp">18dp</dimen>
+    <dimen name="veh_layout_10dp">10dp</dimen>
+    <dimen name="layout_122dp">122dp</dimen>
+    <dimen name="layout_70dp">70dp</dimen>
+    <dimen name="layout_266dp">266dp</dimen>
+    <dimen name="layout_170dp">170dp</dimen>
+    <dimen name="layout_193dp">193dp</dimen>
+    <dimen name="layout_142dp">142dp</dimen>
+    <dimen name="layout_7dp">7dp</dimen>
+    <dimen name="layout_38dp">38dp</dimen>
+    <dimen name="minHeight_42dp">41dp</dimen>
+    <dimen name="minHeight_46dp">46dp</dimen>
+    <dimen name="minHeight_57dp">57dp</dimen>
+    <dimen name="img_veh_largeImg_width">650dp</dimen>
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="marginTop_28dp">28dp</dimen>
+    <dimen name="font_size_13.5sp">13.5sp</dimen>
+    <dimen name="font_size_40sp">40sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="font_size_13sp">13sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="txt_veh_content_size_16sp">16sp</dimen>
+    <dimen name="font_size_22dp">22dp</dimen>
+    <dimen name="font_size_12dp">12sp</dimen>
+
+    <dimen name="margin_val_6dp">6dp</dimen>
+    <dimen name="margin_val_20dp">20dp</dimen>
+    <dimen name="margin_val_46dp">46dp</dimen>
+
+    <dimen name="text_size_22sp">22sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+</resources>

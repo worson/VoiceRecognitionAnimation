@@ -1,3 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VoiceRecognitionAnimation</string>
+
+    <string name="app_name">AIOS-Adapter</string>
+
+    <!-- Do not translate. Duration format for duration < 1 hour -->
+    <!-- Do not translate. Duration format for duration >= 1 hour -->
+
+    <string name="list_title_result">&#160;/&#160;为您找到的&#160;“&#160;%1$s&#160;”</string>
+    <string name="list_title_result_phone">&#160;/&#160;为您找到的%1$s&#160;</string>
+    <!-- music -->
+    <!-- wechat -->
+    <string name="wechat_result_tip">&#160;/&#160;&#160;&#160;%1$s&#160;</string>
+    <!-- fm -->
+
+    <string name="weather_city">%1$s-%2$s</string>
+    <string name="weather_type">%1$s</string>
+    <string name="weather_current_temp">%1$s</string>
+
+    <string name="weather_title_prompt">&#160;/&#160;为您找到的&#160;“&#160;%1$s&#160;”&#160;天气</string>
+    <string name="weather_temp_range_prompt">全天气温</string>
+    <string name="weather_temp_range">%1$s&#160;~&#160;%2$s</string>
+    <string name="weather_wind_direction_prompt">风向</string>
+    <string name="weather_wind_direction">%1$s</string>
+    <string name="weather_wind_power_prompt">风力</string>
+    <string name="weather_wind">%1$s&#160;%2$s</string>
+    <string name="weather_forecast_temp_range">%1$s/%2$s</string>
+
+    <!-- TIPS -->
+    <string name="tips_phone">“打电话给张三”</string>
+    <string name="tips_music">“我要听最炫民族风”</string>
+    <string name="tips_nav">“去大梅沙怎么走”</string>
+    <string name="tips_near">“附近哪有加油站”</string>
+    <string name="settings_copyright_cn">版权所有 © 2007-%d&#160;思必驰信息科技有限公司保留一切权利</string>
+    <string name="tips_version_two">2018</string>
+    <string name="tips_version_three">&#160;思必驰信息科技有限公司保留一切权利</string>
+    <string name="settings_copyright_en">Copyright © 2007-%d&#160;AISpeech All Rights Reserved</string>
+    <string name="tips_versions_three">&#160;AISpeech All Rights Reserved</string>
+    <string name="tips_loading">&#160;正在加载，请稍候</string>
+    <string name="tips_playing">正在播放</string>
+    <string name="tips_stop_voice">停止播放</string>
+    <string name="tips_overview">显示全程路线</string>
+    <string name="tips_zoom_in">地图已放大</string>
+    <string name="tips_zoom_out">地图已缩小</string>
+    <string name="tips_optimize_route">为您重新规划%1$s路线</string>
+    <string name="tips_open_debug">为您开启DEBUG模式</string>
+    <string name="tips_cancel_navi">为您退出导航</string>
+    <string name="tips_2D_model">地图界面已切换为2D</string>
+    <string name="tips_3D_model">地图界面已切换为3D</string>
+    <string name="tips_close_traffic">路况已关闭</string>
+    <string name="tips_open_traffic">路况已打开</string>
+    <string name="tips_day_model">地图切换到白天界面</string>
+    <string name="tips_night_model">地图切换到夜间界面</string>
+    <string name="tips_northup">调整地图方向</string>
+    <string name="tips_headup">车头朝上</string>
+    <string name="tips_return_navi">已为您返回导航</string>
+    <string name="tips_pause_music">为您暂停播放</string>
+    <string name="tips_resume_music">为您继续播放</string>
+    <string name="tips_media_prev">为您播放上一首</string>
+    <string name="tips_media_next">为您播放下一首</string>
+
+    <string name="tips_optimize_route_avoid_congestion">重新规划避开拥堵路段</string>
+    <string name="tips_optimize_route_highway">重新规划优先走高速</string>
+    <string name="tips_optimize_route_no_highway">重新规划避开高速</string>
+    <string name="tips_optimize_route_save_money">重新规划避开收费路段</string>
+
+    <string name="tips_optimize_route_wakeup_avoid_congestion">确定避开拥堵路段吗？</string>
+    <string name="tips_optimize_route_wakeup_highway">确定优先走高速吗？</string>
+    <string name="tips_optimize_route_wakeup_no_highway">确定避开高速吗？</string>
+    <string name="tips_optimize_route_wakeup_save_money">确定避开收费路段吗？</string>
+
+    <string name="tips_screen_open">屏幕已打开</string>
+    <string name="tips_screen_close">屏幕已关闭</string>
+
+    <!-- 连续3次未搜索到节目时退出交互 -->
+    <string name="tips_3times_error_on_fm_music_search">找不到你想听的节目哦，有需要再叫我吧。</string>
+
+
+    <string name="playing_voice">正在为您讲%1$s</string>
+    <string name="nonsupport_map"> %1$s暂不支持此功能！</string>
+    <string name="nonsupport_route_wrong_session"> 导航过程中才支持哦！ </string>
+    <string name="nonsupport_route_map"> %1$s还不支持这个策略哦！</string>
+
+    <!--确认悬浮窗内容-->
+    <string name="confirm_route">重新规划%1$s路线 \n 确定还是取消？</string>
+    <string name="confirm_exit_navi">确定要退出导航吗？</string>
+
+    <!--ERROR-->
+    <string name="error_loc">定位失败</string>
+    <string name="network_abnormal">网络条件不佳，请重试</string>
+    <string name="city_name_not_supported">当前城市暂不支持路况查询</string>
+    <string name="no_seach_road_Info">没有查询到相关路况信息</string>
+
+    <string name="failure_map_common">%1$s没有找到默认的地图应用哦！</string>
+    <string name="failure_map_nodest">获取目的地失败，请重新设置导航目标！</string>
+    <string name="failure_music_not_open">没有已经打开的应用哦</string>
+    <string name="failure_music_not_install">请先安装指定的音乐应用哦</string>
+    <string name="failure_fm_not_install">请先安装指定的电台应用哦</string>
+    <string name="failure_map_not_open">没有显示在前台的地图应用哦</string>
+    <string name="failure_music_no_prev">已经是第一首了</string>
+    <string name="failure_music_no_next">已经是最后一首了</string>
+    <string name="failure_setting_no_app">未安装此类应用</string>
+    <string name="failure_no_support">对不起，暂不支持此功能</string>
+
+    <string name="help_title">您可以这样说</string>
+    <string name="settings_title">默认应用设置</string>
+
+    <string name="wake_up">说“%1$s”来唤醒</string>
+
+    <!-- notification -->
+    <string name="notification_pickup_message_tip_txt">收到车语互联发来的位置信息，请问是导航还是取消?</string>
+
 </resources>
