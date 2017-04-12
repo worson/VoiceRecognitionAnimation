@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:text="完成识别"/>
         </LinearLayout>
-        
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
