@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.aispeech.voicerecognitionanimation.R;
+import com.aispeech.voicerecognitionanimation.voice.IVoiceStatusViewLister;
 
 
 /**
@@ -18,7 +19,7 @@ import com.aispeech.voicerecognitionanimation.R;
  * @date 2016-01-13
  * @copyright aispeech.com
  */
-public class RobotView extends RelativeLayout {
+public class RobotView extends RelativeLayout implements IVoiceStatusViewLister {
 
     public static final String TAG = "AIOS-Adapter-RobotView";
 
@@ -54,6 +55,31 @@ public class RobotView extends RelativeLayout {
             mRobotIV.setImageResource(R.drawable.anim_mic_sample);
         }
         super.onFinishInflate();
+    }
+
+    @Override
+    public void onStart() {
+        startListening();
+    }
+
+    @Override
+    public void onRecognize() {
+        startRecognition();
+    }
+
+    @Override
+    public void onStop() {
+        stopListeningOrRecognition();
+    }
+
+    @Override
+    public void onShow() {
+
+    }
+
+    @Override
+    public void onTTS() {
+
     }
 
     /**

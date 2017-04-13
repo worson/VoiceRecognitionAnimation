@@ -1,62 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#00000000"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00000000"
     tools:context="com.aispeech.voicerecognitionanimation.ui.MainActivity">
 
     <RelativeLayout
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
+        android:layout_width="603dp"
+        android:layout_height="413dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
 
+        <Spinner
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/voice_style_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/voice_bar_style"/>
         <LinearLayout
             android:id="@+id/voice_layout"
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/voice_buttons"
-            android:layout_alignParentBottom="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/button_stop"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="空闲"/>
+                android:layout_weight="1"
+                android:text="空闲" />
+
             <Button
                 android:id="@+id/button_start"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="唤醒"/>
+                android:layout_weight="1"
+                android:text="唤醒" />
+
             <Button
                 android:id="@+id/button_recognize"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="识别"/>
+                android:layout_weight="1"
+                android:text="识别" />
 
             <Button
                 android:id="@+id/button_show"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="结束"/>
+                android:layout_weight="1"
+                android:text="结束" />
+
             <Button
                 android:id="@+id/button_tts"
-                android:layout_weight="1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="播报"/>
+                android:layout_weight="1"
+                android:text="播报" />
         </LinearLayout>
 
     </RelativeLayout>

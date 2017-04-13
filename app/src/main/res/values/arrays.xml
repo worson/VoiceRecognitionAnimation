@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="loading_anim">
+        <item>@drawable/img0</item>
+        <item>@drawable/img1</item>
+        <item>@drawable/img2</item>
+        <item>@drawable/img3</item>
+        <item>@drawable/img4</item>
+        <item>@drawable/img5</item>
+        <item>@drawable/img6</item>
+        <item>@drawable/img7</item>
+        <item>@drawable/img8</item>
+        <item>@drawable/img9</item>
+        <item>@drawable/img10</item>
+        <item>@drawable/img11</item>
+        <item>@drawable/img12</item>
+        <item>@drawable/img13</item>
+        <item>@drawable/img14</item>
+        <item>@drawable/img15</item>
+        <item>@drawable/img16</item>
+        <item>@drawable/img17</item>
+        <item>@drawable/img18</item>
+        <item>@drawable/img19</item>
+        <item>@drawable/img20</item>
+        <item>@drawable/img21</item>
+        <item>@drawable/img22</item>
+        <item>@drawable/img23</item>
+        <item>@drawable/img24</item>
+    </string-array>
+
+    <string-array name="loading_anim1">
+        <item>@drawable/anima_mic2listen_0</item>
+        <item>@drawable/anima_mic2listen_1</item>
+        <item>@drawable/anima_mic2listen_2</item>
+        <item>@drawable/anima_mic2listen_3</item>
+        <item>@drawable/anima_mic2listen_4</item>
+        <item>@drawable/anima_mic2listen_5</item>
+        <item>@drawable/anima_mic2listen_6</item>
+        <item>@drawable/anima_mic2listen_7</item>
+    </string-array>
+    <!--语音识别样式-->
+    <string-array name="voice_bar_style">
+        <item>传统帧动画</item>
+        <item>优化帧动画</item>
+        <item>水波纹动画</item>
+        <item>水波纹动画</item>
+        <item>svg动画</item>
+        <item>自定义动画</item>
+    </string-array>
+
     <!-- 地图支持配置，名称不可更改 -->
     <string-array name="maps">
         <item>高德地图</item>
