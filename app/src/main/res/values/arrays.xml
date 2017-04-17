@@ -39,11 +39,16 @@
         <item>@drawable/anima_mic2listen_7</item>
     </string-array>
     <!--语音识别样式-->
+    <string-array name="voice_input_style">
+        <item>MIC</item>
+        <item>模拟</item>
+    </string-array>
+
     <string-array name="voice_bar_style">
         <item>传统帧动画</item>
         <item>优化帧动画</item>
-        <item>水波纹动画</item>
-        <item>水波纹动画</item>
+        <item>水波纹动画1</item>
+        <item>水波纹动画2</item>
         <item>svg动画</item>
         <item>自定义动画</item>
     </string-array>

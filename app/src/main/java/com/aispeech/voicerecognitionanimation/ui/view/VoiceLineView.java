@@ -91,7 +91,7 @@ public class VoiceLineView extends View implements Runnable {
             middleLineColor = typedArray.getColor(R.styleable.voiceView_middleLine, Color.BLACK);
             middleLineHeight = typedArray.getDimension(R.styleable.voiceView_middleLineHeight, 4);
             paths = new ArrayList<>();
-            for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 20; i++) {
                 paths.add(new Path());
             }
         }
@@ -143,6 +143,9 @@ public class VoiceLineView extends View implements Runnable {
         }//10条线
         for (float i = getWidth() - 1; i >= 0; i -= 1) {
             amplitude = 4 * volume * i / getWidth() - 4 * volume * i * i / getWidth() / getWidth();
+            // TODO: 2017/4/13 修复调试代码
+            amplitude=50;
+//            translateX=0;
             for (int n = 1; n <= paths.size(); n++) {
                 double sin = amplitude * Math.sin((i - Math.pow(1.22, n)) * Math.PI / 180 - translateX);
                 paths.get(n - 1).lineTo(i, (float) ((2 * n * sin / paths.size() - 15 * sin / paths.size()) + moveY));
@@ -154,6 +157,8 @@ public class VoiceLineView extends View implements Runnable {
             } else {
                 paintVoicLine.setAlpha(n * 130 / paths.size());
             }
+            // TODO: 2017/4/13 修复透明度
+//            paintVoicLine.setAlpha(255);
             if (paintVoicLine.getAlpha() > 0) {
                 canvas.drawPath(paths.get(n), paintVoicLine);
             }

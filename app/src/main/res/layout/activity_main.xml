@@ -8,26 +8,40 @@
     tools:context="com.aispeech.voicerecognitionanimation.ui.MainActivity">
 
     <RelativeLayout
-        android:layout_width="603dp"
-        android:layout_height="413dp"
+        android:layout_width="368dp"
+        android:layout_height="576dp"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp">
 
         <Spinner
-            android:layout_alignParentLeft="true"
+            android:id="@+id/voice_input_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
+            android:entries="@array/voice_input_style" />
+
+        <Spinner
             android:id="@+id/voice_style_spinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/voice_bar_style"/>
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:entries="@array/voice_bar_style" />
+
         <LinearLayout
             android:id="@+id/voice_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:orientation="horizontal">
-
         </LinearLayout>
+        <SeekBar
+            android:id="@+id/speech_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_above="@+id/voice_buttons"/>
 
         <LinearLayout
             android:id="@+id/voice_buttons"

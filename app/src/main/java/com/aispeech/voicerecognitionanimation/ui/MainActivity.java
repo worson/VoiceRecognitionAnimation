@@ -1,6 +1,7 @@
 package com.aispeech.voicerecognitionanimation.ui;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
@@ -21,6 +22,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
     private IVoiceStatusViewLister mVoiceStatusViewLister = null;
     private ViewGroup mVoiceViewGroup = null;
     private View mVoiceView = null;
+
+    private static final int MODE_TURE_VOICE = 0;
+    private static final int MODE_SIMU_VOICE = 1;
+    private static final int MODE_NO_VOICE = 2;
+    private int mVoiceType = MODE_TURE_VOICE;
+
 
     private Class[] mVoiceAnimSytleClass = new Class[]{VoiceWaterView.class};
 
@@ -46,15 +53,45 @@ public class MainActivity extends Activity implements View.OnClickListener{
         mVoiceStatusViewLister = (IVoiceStatusViewLister) mVoiceView;
     }
 
+    private void startActivity(Class<?> cls){
+        Intent intent = new Intent(getApplicationContext(),cls);
+        startActivity(intent);
+    }
+
     private void initSpinner() {
+        Spinner inputSpinner = (Spinner)findViewById(R.id.voice_input_spinner);
+        inputSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                mVoiceType = position;
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
         Spinner spinner = (Spinner)findViewById(R.id.voice_style_spinner);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view,
                                        int pos, long id) {
-
-//                String[] languages = getResources().getStringArray(R.array.languages);
-//                Toast.makeText(MainActivity.this, "你点击的是:"+pos, 2000).show();
+                switch (pos){
+                    case 0:
+                        break;
+                    case 1:
+                        startActivity(OptimizeFrameAnimationActivity.class);
+                        break;
+                    case 2:
+                        startActivity(VoiceLineActivity.class);
+                        break;
+                    case 3:
+                        startActivity(WaveViewActivity.class);
+                        break;
+                    case 4:
+                        break;
+                }
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
