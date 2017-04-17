@@ -3,7 +3,7 @@
     xmlns:voiceView="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_bright">
+    android:background="@android:color/black">
 
     <com.aispeech.voicerecognitionanimation.ui.view.VoiceLineView
         android:id="@+id/voicLine"
@@ -15,7 +15,7 @@
         voiceView:rectSpace="0dp"
         voiceView:rectWidth="1dp"
         voiceView:viewMode="line"
-        voiceView:voiceLine="@android:color/holo_red_light" />
+        voiceView:voiceLine="@android:color/holo_purple" />
 
     <View
         android:layout_width="match_parent"

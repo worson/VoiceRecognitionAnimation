@@ -133,7 +133,7 @@ public class VoiceLineView extends View implements Runnable {
             paintVoicLine.setColor(voiceLineColor);
             paintVoicLine.setAntiAlias(true);
             paintVoicLine.setStyle(Paint.Style.STROKE);
-            paintVoicLine.setStrokeWidth(1);
+            paintVoicLine.setStrokeWidth(4);
         }
         canvas.save();
         int moveY = getHeight() / 2;
@@ -155,7 +155,7 @@ public class VoiceLineView extends View implements Runnable {
             if (n == paths.size() - 1) {
                 paintVoicLine.setAlpha(255);
             } else {
-                paintVoicLine.setAlpha(n * 130 / paths.size());
+                paintVoicLine.setAlpha(n * 130*2 / paths.size());
             }
             // TODO: 2017/4/13 修复透明度
 //            paintVoicLine.setAlpha(255);
