@@ -1,5 +1,8 @@
 package com.aispeech.voicerecognitionanimation.ui.style;
 
+import android.content.Context;
+
+import com.aispeech.voicerecognitionanimation.ui.view.WaveView;
 import com.aispeech.voicerecognitionanimation.voice.IVoiceStatusViewLister;
 
 /**
@@ -9,8 +12,22 @@ import com.aispeech.voicerecognitionanimation.voice.IVoiceStatusViewLister;
  * package_name : com.aispeech.voicerecognitionanimation;
  * project_name : VoiceRecognitionAnimation;
  */
-public class VoiceWaterView implements IVoiceStatusViewLister {
+public class WaveViewAdapter implements IVoiceStatusViewLister {
 
+    private WaveView waveView;
+
+    public WaveViewAdapter(Context context) {
+        waveView = new WaveView(context);
+        waveView.start();
+    }
+
+    public void setWaveView(WaveView waveView) {
+        this.waveView = waveView;
+    }
+
+    public WaveView getWaveView() {
+        return waveView;
+    }
 
     @Override
     public void onStart() {
@@ -39,6 +56,6 @@ public class VoiceWaterView implements IVoiceStatusViewLister {
 
     @Override
     public void onUpdateVolume(int vol) {
-
+        waveView.updateVolume(vol);
     }
 }

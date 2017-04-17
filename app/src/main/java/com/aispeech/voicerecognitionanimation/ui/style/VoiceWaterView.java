@@ -11,6 +11,7 @@ import com.aispeech.voicerecognitionanimation.voice.IVoiceStatusViewLister;
  */
 public class VoiceWaterView implements IVoiceStatusViewLister {
 
+
     @Override
     public void onStart() {
 
@@ -33,6 +34,11 @@ public class VoiceWaterView implements IVoiceStatusViewLister {
 
     @Override
     public void onTTS() {
+
+    }
+
+    @Override
+    public void onUpdateVolume(int vol) {
 
     }
 }

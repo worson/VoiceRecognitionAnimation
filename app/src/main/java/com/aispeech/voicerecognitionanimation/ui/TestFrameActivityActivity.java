@@ -18,7 +18,7 @@ import com.aispeech.voicerecognitionanimation.utils.animutils.AnimationsContaine
  * Created by shixiaoming on 16/12/27.
  */
 
-public class TestActivity extends Activity {
+public class TestFrameActivityActivity extends Activity {
     private ImageView imageView;
     private TextView textView;
     private Button playBtn;

@@ -12,13 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.OptimizeFrameAnimationActivity"/>
-        <activity android:name=".ui.TestActivity"/>
+        <activity android:name=".ui.TestFrameActivityActivity"/>
         <activity android:name=".ui.VectorAnimActivity"/>
         <activity android:name=".ui.VoiceLineActivity"/>
+        <activity android:name=".ui.WaveViewActivity"/>
         <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>

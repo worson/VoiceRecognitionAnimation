@@ -82,6 +82,11 @@ public class RobotView extends RelativeLayout implements IVoiceStatusViewLister 
 
     }
 
+    @Override
+    public void onUpdateVolume(int vol) {
+
+    }
+
     /**
      * 启动录音机动画，倾听状态
      */

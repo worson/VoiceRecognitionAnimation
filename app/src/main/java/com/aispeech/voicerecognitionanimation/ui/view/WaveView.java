@@ -54,14 +54,21 @@ public class WaveView extends View implements View.OnClickListener {
 
     public WaveView(Context context) {
         super(context);
+        initView();
     }
 
     public WaveView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        initView();
     }
 
     public WaveView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        initView();
+
+    }
+
+    private void initView() {
         mPath = new Path();
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setColor(Color.BLUE);

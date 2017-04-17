@@ -24,8 +24,8 @@ public class OptimizeFrameAnimationActivity extends Activity implements View.OnC
 
     @Override
     public void onClick(View view) {
-//        Intent intent = new Intent(OptimizeFrameAnimationActivity.this, TestActivity.class);
-        Intent intent = new Intent(getApplicationContext(), TestActivity.class);
+//        Intent intent = new Intent(OptimizeFrameAnimationActivity.this, TestFrameActivityActivity.class);
+        Intent intent = new Intent(getApplicationContext(), TestFrameActivityActivity.class);
         if(view.getId() == R.id.normal_anim){
             intent.putExtra("mode", 1);
         }else {
